@@ -1,5 +1,5 @@
 {
-    "name": "psr/log",
+    "name": "ryanedgar/psr-log",
     "description": "Common interface for logging libraries",
     "keywords": [
         "psr",
