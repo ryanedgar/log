@@ -1,6 +1,6 @@
 <?php
 
-namespace Psr\Log;
+namespace Psr2\Log;
 
 /**
  * Describes a logger instance.
@@ -119,7 +119,7 @@ interface LoggerInterface
      *
      * @return void
      *
-     * @throws \Psr\Log\InvalidArgumentException
+     * @throws \Psr2\Log\InvalidArgumentException
      */
     public function log($level, string|\Stringable $message, array $context = []);
 }

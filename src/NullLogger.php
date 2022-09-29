@@ -1,6 +1,6 @@
 <?php
 
-namespace Psr\Log;
+namespace Psr2\Log;
 
 /**
  * This Logger can be used to avoid conditional log calls.
@@ -21,7 +21,7 @@ class NullLogger extends AbstractLogger
      *
      * @return void
      *
-     * @throws \Psr\Log\InvalidArgumentException
+     * @throws \Psr2\Log\InvalidArgumentException
      */
     public function log($level, string|\Stringable $message, array $context = [])
     {
